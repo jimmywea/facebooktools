@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FacebookTool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>FacebookTool - Kiểm tra bài viết vi phạm</h1>
+
+  <!-- Google Sign-In Button -->
+  <button id="googleSignInBtn">Đăng nhập bằng Google</button>
+
+  <!-- Input for Facebook link and scan button -->
+  <div id="scanSection" style="display:none;">
+    <input type="text" id="facebookLink" placeholder="Nhập link Facebook">
+    <button id="scanBtn">Quét bài viết</button>
+  </div>
+
+  <!-- Results Section -->
+  <div id="results"></div>
+
+  <!-- Import JS scripts -->
+  <script type="module" src="firebase-config.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
