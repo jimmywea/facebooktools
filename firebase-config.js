@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/fireba
 import { getAuth } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
+  apiKey: "AIzaSyAU1fygDZuv4KoM8ENaV2nDdD-7xaB1mkI",
   authDomain: "toolfacebook-32406.firebaseapp.com",
   projectId: "toolfacebook-32406",
   storageBucket: "toolfacebook-32406.appspot.com",
